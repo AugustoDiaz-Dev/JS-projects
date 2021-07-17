@@ -1,0 +1,92 @@
+/*                */
+/* GENERAL STYLES */
+/*                */
+
+/* CONTAINERS */
+.contenedor-limite {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+/* CONTENTS */
+* {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+body {
+  margin: 0;
+  padding: 0 20px;
+}
+h1, h2 {
+    color: #ff0000;
+}
+h3,h4,h5,h6 {
+  font-family: 'Roboto', sans-serif;
+  color: #212121 ;
+}
+p, span {
+  font-family: 'Roboto', sans-serif;
+  color: #606060 ;
+  line-height: 30px;
+}
+hr {
+  margin: 70px;
+}
+.text-align-left {
+  text-align: left;  
+}
+.center {
+  text-align: center;
+}
+
+/*        */
+/* HEADER */
+/*        */
+
+header {
+  text-align: center;
+}
+img {
+  height: 3rem;
+}
+
+/*              */
+/* MAIN/SECTION */
+/*              */
+
+.contenedor-video {
+  max-width: 524px;
+  margin: 0 auto;
+}
+iframe {
+  max-width: 100%;
+}
+.comentario {
+  border-bottom: 1px solid rgba(0,0,0,.2);
+}
+.info-comentario {
+  margin-left: 15px; 
+} 
+.autor {
+  display: block;
+  margin-bottom: 10px;
+}
+.tiempo {
+  font-size: 12px;
+  font-style: italic;
+}
+.nombre-autor {
+  font-size: 14px;
+  font-weight: bold;
+  color: #065fd4 ;
+}
+.comentario p {
+  margin: 0px;
+}
+.titulo-comentario {
+  font-weight: bold;
+  font-size: 20px;
+}
+.separar-span{
+margin-right: 10px;
+}
