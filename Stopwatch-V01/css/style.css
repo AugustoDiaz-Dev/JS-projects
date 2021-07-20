@@ -1,0 +1,67 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #5849a6;
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/my-projects-97ae6.appspot.com/o/Stopwatch%2F04alberto-restifo-HYA9Ak06qR8-unsplash.jpg?alt=media&token=5dc4e301-a572-4e39-aa39-92ff5de38723");
+    
+}
+.container{
+    background-color: blue; /*Fallback for gradient*/
+    background-image: radial-gradient(magenta, red, blue, magenta);
+    width: 40%;
+    min-width: 500px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 60px 0;
+    border-radius: 50px;
+}
+.container {
+    opacity: -1;
+  }
+.container:hover {
+    opacity: 1;
+}
+.timer-display{
+    position: relative;
+    width: 110%;
+    background-color: magenta; /*Fallback for gradient*/
+    background-image: linear-gradient(magenta, blue, red, magenta);
+    left: -5%;
+    padding: 40px 0;
+    font-family: 'Roboto mono',monospace;
+    color: #ffffff;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+}
+.buttons{
+    width: 80%;
+    margin: 60px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.buttons button{
+    padding: 10px 20px;
+    background-color: blue;
+    color: magenta;
+    border: none;
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+}
+button:hover {
+    background-color: magenta;
+    color:blue;
+}
+
